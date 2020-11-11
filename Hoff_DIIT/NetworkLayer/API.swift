@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+enum API {
+    static let url = ""
+}

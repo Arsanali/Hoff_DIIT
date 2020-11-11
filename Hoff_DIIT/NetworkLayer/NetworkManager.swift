@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+
+protocol NetworkManager {
+    func getData()
+}
+
+class NetworkManagerExp: NetworkManager {
+    
+    func getData() {
+        print("")
+    }
+}

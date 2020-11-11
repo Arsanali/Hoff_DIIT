@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+
+struct ProductModel: Codable {
+    let id: Int 
+}
